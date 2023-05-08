@@ -47,7 +47,6 @@ function App() {
   };
 
   const saveContact = () => {
-    // [ {name:"name1",number:723487236},...]
     let phoneNumber = countryCode + number;
     let savedContacts = localStorage.getItem("savedContacts");
     let savedContactsArray = savedContacts ? JSON.parse(savedContacts) : [];
@@ -68,7 +67,6 @@ function App() {
       });
       localStorage.setItem("savedContacts", JSON.stringify(savedContactsArray));
     }
-    //check if the name is the localstorage before save it to the set
 
     setYourContacts(savedContactsArray);
   };
