@@ -12,7 +12,7 @@ const Navbar = () => {
             className="btn btn-outline-light"
             target="_blank"
             rel="noreferrer"
-            href="/"
+            href="https://github.com/siddhishah109/RapidWhatsApp"
           >
             Code
           </a>
